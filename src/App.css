@@ -1,22 +1,85 @@
 .App {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.9em;
+}
+
+.medio_y_centro {
+  display: flex;
+  justify-content: center;
+}
+
+.App a {
+  text-decoration: none;
+}
+
+.columns-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.top-blanck {
+  margin: 30px;
+  padding: 25px;
+}
+
+.white-column {
+  width: 35%;
+}
+
+.access-wrapper {
+  position: absolute;
+  margin: 0px;
+  border: 1px solid rgb(172, 172, 172);
+  border-radius: 15px;
+  padding: 20px 20px 20px 20px;
+  color: #202124;
+}
+
+.access-wrapper a {
+  color: #1a73e8;
+  font-size: 0.75em;
+}
+
+.mini-header {
+  margin: 0px 10px 5px 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.mini-header img {
+  margin: 0px;
+  padding: 10px;
+  height: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.suggestion {
+  margin: 5px;
+}
+
+.enter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.create-account {
+  display: flex;
+  flex-direction: initial;
+}
+
+.blue-span {
+  display: flex;
+  justify-content: flex-end;
+  background-color: none;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.next {
+  display: flex;
+  align-self: flex-end;
+  background-color: #1a73e8;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  cursor: pointer;
 }
